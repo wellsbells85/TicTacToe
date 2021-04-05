@@ -1,4 +1,4 @@
-package com.techelevator.model;
+package com.weller.model;
 
 import java.util.Objects;
 

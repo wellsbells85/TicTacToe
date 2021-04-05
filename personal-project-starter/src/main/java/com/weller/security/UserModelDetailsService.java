@@ -1,8 +1,6 @@
-package com.techelevator.security;
+package com.weller.security;
 
 
-import com.techelevator.dao.UserDAO;
-import com.techelevator.model.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.core.GrantedAuthority;
@@ -10,6 +8,9 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Component;
+
+import com.weller.dao.UserDAO;
+import com.weller.model.User;
 
 import java.util.List;
 import java.util.stream.Collectors;

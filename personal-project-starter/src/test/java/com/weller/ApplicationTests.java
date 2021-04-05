@@ -1,4 +1,4 @@
-package com.techelevator;
+package com.weller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

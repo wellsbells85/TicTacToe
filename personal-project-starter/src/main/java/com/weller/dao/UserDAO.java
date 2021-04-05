@@ -1,8 +1,8 @@
-package com.techelevator.dao;
-
-import com.techelevator.model.User;
+package com.weller.dao;
 
 import java.util.List;
+
+import com.weller.model.User;
 
 public interface UserDAO {
 

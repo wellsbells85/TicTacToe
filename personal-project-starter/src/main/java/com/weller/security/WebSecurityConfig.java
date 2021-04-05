@@ -1,7 +1,5 @@
-package com.techelevator.security;
+package com.weller.security;
 
-import com.techelevator.security.jwt.JWTConfigurer;
-import com.techelevator.security.jwt.TokenProvider;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
@@ -12,6 +10,9 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
+
+import com.weller.security.jwt.JWTConfigurer;
+import com.weller.security.jwt.TokenProvider;
 
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true, securedEnabled = true)
@@ -48,7 +49,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
     /**
-     * Configure com.techelevator.auctions.security settings
+     * Configure com.weller.auctions.security settings
      * @param httpSecurity
      * @throws Exception
      */
